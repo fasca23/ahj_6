@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Еще пока не трелло....</title>
+</head>
+
+<body>
+  <h1 class="visually-hidden">Еще пока не трелло....</h1>
+
+  <div class="board">
+    <div class="column" data-column-id="1">
+      <h2>Надо сделать</h2>
+
+      <ul class="column-cards">
+        <li class="card" draggable="true" data-card-id="1">
+          <button type="button" class="delete-card-button">&#x2715;</button>
+          <p class="card-text">Пример</p>
+        </li>
+      </ul>
+
+      <a class="add-card-link">Добавить новую карточку</a>
+
+      <div class="add-card-section visually-hidden">
+        <textarea class="textarea"></textarea>
+        <button type="button" class="add-card-button">Создать карточку</button>
+        <button type="button" class="cancel-card-button"></button>
+      </div>
+    </div>
+
+    <div class="column" data-column-id="2">
+      <h2>В работе</h2>
+
+      <ul class="column-cards">
+      </ul>
+
+      <a class="add-card-link">Добавить новую карточку</a>
+
+      <div class="add-card-section visually-hidden">
+        <textarea class="textarea"></textarea>
+        <button type="button" class="add-card-button">Создать карточку</button>
+        <button type="button" class="cancel-card-button"></button>
+      </div>
+    </div>
+
+    <div class="column" data-column-id="3">
+      <h2>Выполнено</h2>
+
+      <ul class="column-cards">
+      </ul>
+
+      <a class="add-card-link">Добавить новую карточку</a>
+
+      <div class="add-card-section visually-hidden">
+        <textarea class="textarea"></textarea>
+        <button type="button" class="add-card-button">Создать карточку</button>
+        <button type="button" class="cancel-card-button"></button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
